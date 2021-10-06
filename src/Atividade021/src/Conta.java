@@ -3,9 +3,8 @@ public class Conta {
     private int codCliente;
 
 
-    public double transferencia(double valorTransf){
+    public void transferencia(double valorTransf){
         double saldoAtual = this.saldo - valorTransf;
-        return saldoAtual;
     }
 
 

@@ -16,9 +16,9 @@ public class Teste {
 
         //Imprimindo:
         System.out.println("-----------------Conta-----------------\n");
-        System.out.printf("Cód. Cliente: %d \nSaldo: %.2f\n Saldo Atual: ", conta.getCodCliente(), conta.getSaldo());
-        System.out.println("-----------------Conta Corrente--------------\n");
-        System.out.printf("Cód. Cliente: %d \nSaldo: %.2f\n Saldo Atual: ", cc.getCodCliente(), cc.getSaldo());
+        System.out.printf("Cód. Cliente: %d \nSaldo: \nSaldo após transferencia: R$%.3f\n", conta.getCodCliente(), conta.getSaldo());
+        System.out.println("\n-----------------Conta Corrente--------------\n");
+        System.out.printf("Cód. Cliente: %d \nSaldo: \nSaldo após transferencia: R$%.3f\n", cc.getCodCliente(), cc.getSaldo());
 
     }
 }
