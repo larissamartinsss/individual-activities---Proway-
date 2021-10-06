@@ -12,6 +12,7 @@ public class ContaCorrente extends Conta {
             double novoSaldo = getSaldo() - taxaManut;
             this.setSaldo(novoSaldo);
         }
+        this.numTrasnf ++;
 
     }
 
