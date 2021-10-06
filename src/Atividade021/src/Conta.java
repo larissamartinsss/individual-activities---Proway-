@@ -2,6 +2,13 @@ public class Conta {
     private double saldo;
     private int codCliente;
 
+
+    public double transferencia(double valorTransf){
+        double debitar = this.saldo - valorTransf;
+        return debitar;
+    }
+
+
     public double getSaldo() {
         return this.saldo;
     }
