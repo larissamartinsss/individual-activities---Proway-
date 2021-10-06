@@ -4,9 +4,10 @@ public class Conta {
 
 
     public double transferencia(double valorTransf){
-        double debitar = this.saldo - valorTransf;
-        return debitar;
+        double saldoAtual = this.saldo - valorTransf;
+        return saldoAtual;
     }
+
 
     public double getSaldo() {
         return this.saldo;
