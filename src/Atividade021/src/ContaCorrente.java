@@ -6,6 +6,7 @@ public class ContaCorrente extends Conta {
     @Override
     public void transferencia(double valorTransf){
         super.transferencia(valorTransf);
+
         double saldoAtual = this.getSaldo() - taxaTransf;
         this.setSaldo(saldoAtual);
         if(numTrasnf %5 == 0){
