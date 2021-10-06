@@ -4,7 +4,7 @@ public class Conta {
 
 
     public void transferencia(double valorTransf){
-        double saldoAtual = this.saldo - valorTransf;
+        this.saldo -= valorTransf;
     }
 
 
