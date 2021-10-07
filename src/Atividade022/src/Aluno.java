@@ -30,10 +30,9 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno{" +
-                "nomeCompleto='" + nomeCompleto + '\'' +
-                ", idade=" + idade +
-                ", matricula=" + matricula +
-                '}';
+        return "Aluno: \n" +
+                "Nome completo: " + getNomeCompleto() +
+                "\nIdade: " + getIdade() +
+                "\nMatricula: " + getMatricula();
     }
 }

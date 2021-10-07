@@ -14,7 +14,6 @@ public class ContaCorrente extends Conta {
             this.setSaldo(novoSaldo);
         }
         this.numTrasnf ++;
-
     }
 
 }
