@@ -1,12 +1,12 @@
 package Banco;
 
 public class ContaCorrente {
-    private double saldo = 5000;
+    private double saldo;
     private double taxaSaque = 2;
-    private int codCliente = 3;
+    private double codCliente;
 
     // Nao consegui fazer o construtor direito;
-    public ContaCorrente() {
+    public ContaCorrente(double saldo, double codCliente) {
         this.saldo = saldo;
         this.codCliente = codCliente;
     }
