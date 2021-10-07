@@ -1,22 +1,30 @@
 package Banco;
 
 public class ContaCorrente {
-    private double saldo;
-    private double taxaSaque = 2.50;
-    private int codCliente;
+    private double saldo = 5000;
+    private double taxaSaque = 2;
+    private int codCliente = 3;
 
-    public ContaCorrente(double saldo, int codCliente) {
+    // Nao consegui fazer o construtor direito;
+    public ContaCorrente() {
         this.saldo = saldo;
         this.codCliente = codCliente;
     }
 
     public void saque(double valor){
-        double saque = (this.saldo - valor - this.taxaSaque);
+       this.saldo -= (valor + this.taxaSaque);
     }
 
     public void deposito(double valor){
-        double saldoAtual = this.saldo + valor;
+        this.saldo += valor;
     }
 
+    @Override
+    public String toString() {
+        return "-----Conta Corrente------\n" +
+                "Saldo: " + this.saldo +
+                "\ntaxa Saque: " + this.taxaSaque +
+                ", codCliente: " + this.codCliente;
+    }
 }
 
