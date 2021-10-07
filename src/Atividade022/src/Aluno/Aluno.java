@@ -1,3 +1,5 @@
+package Aluno;
+
 public class Aluno {
     private String nomeCompleto;
     private int idade;
@@ -30,7 +32,7 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno: \n" +
+        return "Aluno.Aluno: \n" +
                 "Nome completo: " + getNomeCompleto() +
                 "\nIdade: " + getIdade() +
                 "\nMatricula: " + getMatricula();

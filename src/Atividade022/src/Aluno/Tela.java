@@ -1,3 +1,5 @@
+package Aluno;
+
 public class Tela {
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno();
