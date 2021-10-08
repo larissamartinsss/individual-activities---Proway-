@@ -23,7 +23,7 @@ public class ContaCorrente {
         return "-----Conta Corrente------\n" +
                 "Saldo: " + this.saldo +
                 "\ntaxa Saque: " + this.taxaSaque +
-                ", codCliente: " + this.codCliente;
+                "\ncodCliente: " + this.codCliente;
     }
 }
 
