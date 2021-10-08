@@ -5,7 +5,6 @@ public class ContaCorrente {
     private double taxaSaque = 2;
     private double codCliente;
 
-    // Nao consegui fazer o construtor direito;
     public ContaCorrente(double saldo, double codCliente) {
         this.saldo = saldo;
         this.codCliente = codCliente;
