@@ -32,7 +32,7 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno.Aluno: \n" +
+        return "========Aluno======== \n" +
                 "Nome completo: " + getNomeCompleto() +
                 "\nIdade: " + getIdade() +
                 "\nMatricula: " + getMatricula();
