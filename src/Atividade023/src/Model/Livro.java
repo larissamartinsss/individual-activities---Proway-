@@ -1,19 +1,17 @@
 package Model;
 
-public class CadLivros {
+public class Livro {
     private int id;
     private String titulo;
     private String Autor;
     private int numPags;
 
-    public CadLivros(int id) {
+    public Livro(int id) {
         this.id = id;
     }
-
     public int getId() {
         return this.id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -21,11 +19,9 @@ public class CadLivros {
     public String getTitulo() {
         return this.titulo;
     }
-
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-
     public String getAutor() {
         return this.Autor;
     }
@@ -44,12 +40,23 @@ public class CadLivros {
 
     @Override
     public boolean equals(Object obj) {
-        CadLivros livros = (CadLivros) obj;
+        Livro livros = (Livro) obj;
         if(this.id == livros.getId()){
             return true;
         }
         else{
             return false;
         }
+
+    }
+
+    @Override
+    public String toString() {
+        return "Livro{" +
+                "id=" + id +
+                ", titulo='" + titulo + '\'' +
+                ", Autor='" + Autor + '\'' +
+                ", numPags=" + numPags +
+                '}';
     }
 }
