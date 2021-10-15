@@ -1,6 +1,6 @@
 package View;
 
-import Controller.ControlLivros;
+import Controller.LivroController;
 import Model.Livro;
 
 import java.util.Scanner;
@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class ViewLivros {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ControlLivros crud = new ControlLivros();
+        LivroController crud = new LivroController();
 
         int opcao;
         do {

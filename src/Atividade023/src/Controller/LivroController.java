@@ -2,10 +2,10 @@ package Controller;
 import Model.Livro;
 import java.util.ArrayList;
 
-public class ControlLivros {
+public class LivroController {
 
     private ArrayList<Livro>livros;
-    public ControlLivros(){
+    public LivroController(){
         this.livros = new ArrayList<Livro>();
     }
 
