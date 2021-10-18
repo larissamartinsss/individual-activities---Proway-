@@ -6,8 +6,11 @@ public class Main {
 
         Object objPC = pc;
         Object objNot = not;
+        Object objdesk =desk;
 
-
+        Computador obj1 = (Computador)objPC;
+        Notebook obj2 = (Notebook)objNot;
+        Desktop obj3 = (Desktop)objdesk;
 
 
 
