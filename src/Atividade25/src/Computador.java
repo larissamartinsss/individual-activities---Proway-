@@ -6,11 +6,9 @@ public class Computador {
 
     @Override
     public String toString() {
-        return "Computador{" +
-                "marca='" + marca + '\'' +
-                ", ram='" + ram + '\'' +
-                ", cpu='" + cpu + '\'' +
-                ", hdd='" + hdd + '\'' +
-                '}';
+        return "\nMarca: " + marca +
+                "\nRam: " + ram +
+                "\nCPU: " + cpu +
+                "\nHDD: " + hdd;
     }
 }

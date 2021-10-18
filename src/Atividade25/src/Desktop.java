@@ -1,16 +1,14 @@
 public class Desktop extends Computador{
-    public double tamGabinete;
+    public String tamGabinete;
     public String monitor;
-    public String bluetooth;
+    public double bluetooth;
     public String fonte;
 
     @Override
     public String toString() {
-        return "Desktop{" +
-                "tamGabinete=" + tamGabinete +
-                ", monitor='" + monitor + '\'' +
-                ", bluetooth='" + bluetooth + '\'' +
-                ", fonte='" + fonte + '\'' +
-                '}';
+        return "\ntamanho: Gabinete: " + tamGabinete +
+                "\nMonitor: " + monitor +
+                "\nBluetooth: " + bluetooth +
+                "\nFonte: " + fonte;
     }
 }
