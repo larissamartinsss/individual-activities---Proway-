@@ -37,8 +37,8 @@ public class Livro {
 
     @Override
     public boolean equals(Object obj) {
-        Livro livros = (Livro) obj;
-        if(this.id == livros.getId()){
+        Livro outro = (Livro) obj;
+        if(this.id == outro.id){
             return true;
         }
         else{

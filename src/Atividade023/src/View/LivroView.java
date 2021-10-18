@@ -5,7 +5,7 @@ import Model.Livro;
 
 import java.util.Scanner;
 
-public class ViewLivros {
+public class LivroView {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         LivroController crud = new LivroController();
@@ -17,11 +17,11 @@ public class ViewLivros {
              opcao = Integer.parseInt(sc.nextLine());
             switch (opcao) {
                 case 1:
-                    Livro cad = new Livro(1);
-                    cad.setTitulo("O alquimista");
-                    cad.setAutor("Paulo Coelho");
-                    cad.setNumPags(208);
-                    crud.create(cad);
+                    Livro livro1 = new Livro(1);
+                    livro1.setTitulo("O alquimista");
+                    livro1.setAutor("Paulo Coelho");
+                    livro1.setNumPags(208);
+                    crud.create(livro1);
                     break;
                 case 2:
                     for (Livro book : crud.read()) {

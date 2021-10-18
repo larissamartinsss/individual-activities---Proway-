@@ -6,8 +6,6 @@ public class TelaBanco {
 
         conta.deposito(10);
         conta.saque(100);
-
         System.out.println(conta);
-
     }
 }
