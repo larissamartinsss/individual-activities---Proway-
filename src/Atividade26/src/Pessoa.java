@@ -6,10 +6,10 @@ public class Pessoa {
     public int idade;
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Pessoa)) return false;
-        Pessoa pessoa = (Pessoa) o;
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof Pessoa)) return false;
+        Pessoa pessoa = (Pessoa) obj;
         return idade == pessoa.idade && Objects.equals(nome, pessoa.nome) && Objects.equals(sobrenome, pessoa.sobrenome);
     }
 

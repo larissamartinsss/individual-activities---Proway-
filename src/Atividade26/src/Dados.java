@@ -28,7 +28,6 @@ public class Dados {
         return "Não encontrado";
     }
 
-
     public String verify(Object obj) {
         for (int i = 0; i < dados.length; i++) {
             if (dados[i].equals(obj)) {

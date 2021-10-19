@@ -15,9 +15,14 @@ public class Main {
 
 
         Dados dados = new Dados();
-        dados.adicionar(pessoa1);
+        dados.adicionar(pessoa1);;
         dados.adicionar(aluno);
+        dados.verify(pessoa1);
+        dados.verify(aluno);
+        dados.remove(aluno);
+
         Pessoa pesso2= pessoa1;
+
 
 
 
