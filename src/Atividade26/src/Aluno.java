@@ -15,10 +15,8 @@ public class Aluno extends Pessoa {
 
     @Override
     public String toString() {
-        return "Aluno{" +
-                "matricula=" + matricula +
-                ", turma='" + turma + '\'' +
-                ", curso='" + curso + '\'' +
-                '}';
+        return super.toString() + "\nMatricula: " + matricula +
+                "\nTurma: " + turma +
+                "\nCurso: " + curso;
     }
 }
