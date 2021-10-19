@@ -13,8 +13,12 @@ public class Aluno extends Pessoa {
         return matricula == aluno.matricula && Objects.equals(turma, aluno.turma) && Objects.equals(curso, aluno.curso);
     }
 
-
-
-
-
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "matricula=" + matricula +
+                ", turma='" + turma + '\'' +
+                ", curso='" + curso + '\'' +
+                '}';
+    }
 }
