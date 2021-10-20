@@ -2,7 +2,6 @@ package view;
 
 import controller.Filmes;
 import controller.Series;
-import model.Cadastro;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,8 +27,8 @@ public class Main {
         System.out.println(f);
         System.out.println(s);
 
-
-
+        System.out.println(filmes.exist(f));
+        System.out.println(series.exist(s));
 
     }
 }
