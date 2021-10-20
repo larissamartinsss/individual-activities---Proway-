@@ -1,23 +1,21 @@
 package controller;
 
-import model.Cadastro;
-
 import java.util.ArrayList;
 // ArrayList Generics:
-public class Base<T> extends Cadastro {
-    private ArrayList<T> cadastro;
+public class Base<T> {
+    private ArrayList<T> base;
 
     public Base () {
         super();
-        this.cadastro = new ArrayList<T>();
+        this.base = new ArrayList<T>();
     }
     // Crud:
     public void create(T obj){
-        this.cadastro.add(obj);
+        this.base.add(obj);
     }
 
     public ArrayList<T> read(){
-        return this.cadastro;
+        return this.base;
     }
 
     public void update(T obj){
@@ -26,11 +24,11 @@ public class Base<T> extends Cadastro {
         this.create(obj);}
     }
     public void delete(T obj){
-        this.cadastro.remove(obj);
+        this.base.remove(obj);
     }
 
     public boolean exist (T obj){
-        return this.cadastro.contains(obj);
+        return this.base.contains(obj);
     }
 
 }

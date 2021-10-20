@@ -2,11 +2,13 @@ package view;
 
 import controller.Filmes;
 import controller.Series;
+import model.FilmeModel;
+import model.SerieModel;
 
 public class Main {
     public static void main(String[] args) {
-        Filmes filmes = new Filmes();
-        Filmes f = new Filmes();
+        FilmeModel filmes = new FilmeModel();
+        FilmeModel f = new FilmeModel();
         f.id = 1;
         f.titulo = "Capitão Fantástico";
         f.genero = "Drama";
@@ -14,12 +16,12 @@ public class Main {
         f.duracao = "1h58m";
 
         Series series = new Series();
-        Series s = new Series();
+        SerieModel s = new SerieModel();
         s.id = 2;
         s.titulo = "Anne with an E";
         s.genero = " Coming of age";
         s.ano = 2017;
-        s.duracao = "3 temporadas";
+        s.temporadas = "3 temporadas";
         Series s2 = new Series();
         s2.id = 3;
         s2.titulo = "The Bold Type";
