@@ -1,11 +1,14 @@
 package controller;
 
+import model.Cadastro;
+
 import java.util.ArrayList;
 // ArrayList Generics:
-public class Base<T> {
+public class Base<T> extends Cadastro {
     private ArrayList<T> cadastro;
 
-    public Base() {
+    public Base () {
+        super();
         this.cadastro = new ArrayList<T>();
     }
     // Crud:

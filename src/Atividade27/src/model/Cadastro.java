@@ -10,6 +10,11 @@ public class Cadastro {
     public Cadastro(int id) {
     this.id = id;
     }
+
+    public Cadastro() {
+
+    }
+
     @Override
     public boolean equals(Object obj){
         if(obj instanceof Cadastro){
