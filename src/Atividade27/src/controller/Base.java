@@ -18,9 +18,9 @@ public class Base<T> {
     }
 
     public void update(T obj){
-        //  if(exist(obj)){
-        //  this.delete(obj);
-        //  this.create(obj);}
+        if(exist(obj)){
+        this.delete(obj);
+        this.create(obj);}
     }
     public void delete(T obj){
         this.cadastro.remove(obj);
