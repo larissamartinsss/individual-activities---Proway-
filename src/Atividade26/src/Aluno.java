@@ -10,7 +10,7 @@ public class Aluno extends Pessoa {
         if (this == obj) return true;
         if (!(obj instanceof Aluno)) return false;
         Aluno aluno = (Aluno) obj;
-        return matricula == aluno.matricula && Objects.equals(turma, aluno.turma) && Objects.equals(curso, aluno.curso);
+        return + matricula == aluno.matricula && Objects.equals(turma, aluno.turma) && Objects.equals(curso, aluno.curso);
     }
 
     @Override

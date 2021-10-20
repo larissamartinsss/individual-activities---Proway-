@@ -12,6 +12,7 @@ public class Main {
         aluno.matricula = 221226;
         aluno.turma = "9ºB";
         aluno.curso = "Design";
+        aluno.idade = 22;
 
 
         Dados dados = new Dados();
@@ -22,6 +23,9 @@ public class Main {
         dados.remove(aluno);
 
         Pessoa pesso2= pessoa1;
+
+        System.out.println(aluno);
+        System.out.println(pessoa1);
 
 
 

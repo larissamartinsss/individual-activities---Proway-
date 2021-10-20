@@ -12,7 +12,7 @@ public class Dados {
             dados[cont] = obj;
             cont++;
         } else {
-            Object[] dados2 = new Object[dados.length * 2];
+            Object[] dados2 = new Object[dados.length + 5];
             dados = dados2;
         }
 
