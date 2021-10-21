@@ -23,9 +23,20 @@ public class Main {
         PessoaJuridica pj = new PessoaJuridica();
         pj.id = 2;
         pj.cnpj = "102929102.2212";
+        pj.nome = "LarisTech";
+
+
+        PessoaJuridica pj2 = new PessoaJuridica();
+        pj.id = 3;
+        pj.cnpj = "102929102.2212";
+        pj.nome = "LTech";
 
         pfc.create(pf);
+        pjc.create(pj2);
         pjc.create(pj);
+        pjc.delete(pj2);
+
+        System.out.println(pf);
 
 
 
