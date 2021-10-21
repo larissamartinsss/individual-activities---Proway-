@@ -1,17 +1,19 @@
 package controller;
 
+import model.Id;
+
 import java.util.ArrayList;
 
-public class Base<T> {
-private ArrayList<T> base;
+public class Base<T> extends Id {
+private ArrayList<T> dados;
 
 // Crud
 public void create(T obj) {
-    this.base.add(obj);
+    this.dados.add(obj);
 }
 
 public ArrayList<T> read(){
-    return this.base;
+    return this.dados;
 }
 
 public void update(T obj){
@@ -23,11 +25,11 @@ public void update(T obj){
 }
 
 public void delete(T obj){
-    this.base.remove(obj);
+    this.dados.remove(obj);
 }
 
 public boolean exist (T obj){
-    return this.base.contains(obj);
+    return this.dados.contains(obj);
 }
 
 
