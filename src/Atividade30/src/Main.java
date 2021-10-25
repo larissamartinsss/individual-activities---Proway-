@@ -18,21 +18,24 @@ public class Main {
 
             switch (opcao) {
                 case 1:
+                    System.out.println("\n------SOMA------");
                     System.out.println("O resultado da soma é: "+calc.soma(n1, n2));
                     break;
 
                 case 2:
+                    System.out.println("\n------SUBTRAÇÃO------");
                     System.out.println("O resultado da subtração é: "+calc.substracao(n1,n2));
 
                     break;
 
                 case 3:
+                    System.out.println("\n------MULTIPLICAÇÃO------");
                     System.out.println("O resultado da multiplicação é: "+calc.multiplicacao(n1, n2));
 
                     break;
 
                 case 4:
-                    System.out.println("\nDigite os números a serem divididos: ");
+                    System.out.println("\n------DIVISÃO------");
                     try {
                         System.out.println("O resultado da divisão é: "+calc.divisao(n1, n2));
                     } catch (ArithmeticException ex) {
