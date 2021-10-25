@@ -26,7 +26,29 @@ public class Calculadora {
         public void menu(){
             Scanner sc = new Scanner(System.in);
             System.out.println("Escolha a opção desejada: ");
-            int opcao = Integer.parseInt(sc.nextLine());
+            String opcao = sc.nextLine();
+
+            switch (opcao){
+                case "+":
+                    soma(20,65);
+                    break;
+
+                    case "-":
+                    substracao(75,20);
+                    break;
+
+                case "*":
+                    multiplicacao(10,4);
+                    break;
+
+                case "/":
+                    divisao(15,3);
+                    break;
+
+                case "s":
+                    System.out.println("Saindo...");
+                    break;
+            }
 
 
 
