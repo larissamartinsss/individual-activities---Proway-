@@ -1,12 +1,9 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calculadora calc = new Calculadora();
-        int n1 = 0;
-        int n2 = 0;
-        int opcao = -1;
+        int n1 = 0; int n2 = 0; int opcao = -1;
 
         do {
             System.out.println("\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n0-Sair");
@@ -15,7 +12,6 @@ public class Main {
                 n1 = lerNum(sc, "Diite o 1º número: ");
                 n2 = lerNum(sc, "Diite o 2º número: ");
             }
-
             switch (opcao) {
                 case 1:
                     System.out.println("\n------SOMA------");
@@ -25,13 +21,11 @@ public class Main {
                 case 2:
                     System.out.println("\n------SUBTRAÇÃO------");
                     System.out.println("O resultado da subtração é: "+calc.substracao(n1,n2));
-
                     break;
 
                 case 3:
                     System.out.println("\n------MULTIPLICAÇÃO------");
                     System.out.println("O resultado da multiplicação é: "+calc.multiplicacao(n1, n2));
-
                     break;
 
                 case 4:
@@ -47,7 +41,6 @@ public class Main {
                     System.out.println("Saindo...");
                     break;
             }
-
         } while (opcao != 0);
 
     }
@@ -63,7 +56,6 @@ public class Main {
                 System.out.println("Valor digitado é inválido!");
             }
         } while(!valido);
-
         return num;
     }
 }
