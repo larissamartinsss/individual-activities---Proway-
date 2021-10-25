@@ -7,8 +7,30 @@ import java.util.Scanner;
 
 public class CalculadoraView {
     public static void main(String[] args) {
+        boolean continua = true;
+        do{
         imprimiMenu();
-    }
+        int opcao = lerNumero();
+        opcoesMenu(opcao);
+    }while (continua);
+
+        private static boolean continuarMenu(){
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Deseja continuar? (S/N)?");
+            try {
+                char resposta = sc.nextLine().toUpperCase().CharAt(0);
+                if(resposta == 'S'){
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            } catch (Exception e){
+                System.out.println(e.getMessage());
+            }
+            }
+
+        }
 
     private static void imprimiMenu() {
         System.out.println("========= CALCULATOR ========= ");

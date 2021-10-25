@@ -18,20 +18,10 @@ public class CalculadoraController {
         return multiplicacao;
     }
 
-    public int divisao(Calculadora calc) {
-        if (calc.n2 != 0) {
-            int divisao = calc.n1 / calc.n2;
+    public double divisao(Calculadora calc) {
+            double divisao = (double) calc.n1 / (double) calc.n2;
             return divisao;
-        } else {
-            throw new DivisaoPorZeroException("Erro: Divisão por zero");
-        }
 
-    }
-
-    public class DivisaoPorZeroException extends RuntimeException {
-        public DivisaoPorZeroException(String message) {
-            super(message);
-        }
     }
 
 
