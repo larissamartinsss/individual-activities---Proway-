@@ -9,7 +9,7 @@ public class Main {
         int opcao = -1;
 
         do {
-            System.out.println("\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n");
+            System.out.println("\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n0-Sair");
             opcao = lerNum(sc, "\nEscolha a opção desejada:");
              if (opcao > 0 && opcao < 5) {
                 n1 = lerNum(sc, "Diite o 1º número: ");
@@ -38,7 +38,7 @@ public class Main {
                     System.out.println("\n------DIVISÃO------");
                     try {
                         System.out.println("O resultado da divisão é: "+calc.divisao(n1, n2));
-                    } catch (ArithmeticException ex) {
+                    } catch (Calculadora.DivisaoPorZeroException ex) {
                         System.out.println("Não é possível realizar divisao por zero");
                     }
                     break;

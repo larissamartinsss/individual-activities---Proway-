@@ -21,12 +21,13 @@ public class Calculadora {
     }
 
     public int divisao(int n1, int n2) {
-        int divisao = n1 / n2;
         if (n2 != 0) {
+            int divisao = n1 / n2;
             return divisao;
         } else {
             throw new DivisaoPorZeroException("Erro: Divisão por zero");
         }
+
     }
 
     public class DivisaoPorZeroException extends RuntimeException {
