@@ -8,8 +8,7 @@ READ PARA ORGANIZAR ATIVIDADES.
 <h3>Atividades:</h3>
  
 <ul>
-  <li><li/>
-  <li>ATPS-REVISÃO - <a target="_blank" href="https://github.com/larissamartinsss/JavaRevisaoExercicios/tree/main/src">Atividades propostas para revisão! -ATP-R01 À ATP-R10- 11/10/21</a></li>
+  <li><a target="_blank" href="https://github.com/larissamartinsss/JavaRevisaoExercicios">Atividades propostas para revisão! -ATP-R01 À ATP-R10- 11/10/21</a></li>
   <li>ATP01 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/blob/main/src/Primeiras%20atividades/Av1_Cadastro.java">Cadastro de Produtos</a></li>
   <li>ATP02 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/blob/main/src/Primeiras%20atividades/Av2_CadastroCliente.java">Cadastro de Filmes</a></li>
 
