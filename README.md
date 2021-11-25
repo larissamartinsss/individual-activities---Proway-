@@ -22,14 +22,14 @@ READ PARA ORGANIZAR ATIVIDADES.
 <li>ATP11 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/blob/main/src/Primeiras%20atividades/AtividadesEstruturaDeRepeti%C3%A7%C3%A3o/Av_EstruturaFor.java">Estrutura For</a></li>
 <li>ATP12 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/blob/main/src/Primeiras%20atividades/AtividadesEstruturaDeRepeti%C3%A7%C3%A3o/Av_EstruturaWhile.java">Estrutura While</a></li>
 <li>ATP13 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/blob/main/src/Primeiras%20atividades/AtividadesEstruturaDeRepeti%C3%A7%C3%A3o/Av_numParesPrimos.java">Num Pares & Primos</a></li>
- <li>ATP14 - <a target="_blank" href=" ">Nome ATP</a></li>
- <li>ATP15 - <a target="_blank" href=" ">Nome ATP</a></li>
- <li>ATP15 - <a target="_blank" href=" ">Nome ATP</a></li>
- <li>ATP16 - <a target="_blank" href=" ">Nome ATP</a></li>
- <li>ATP17 - <a target="_blank" href=" ">Nome ATP</a></li>
- <li>ATP18 - <a target="_blank" href=" ">Nome ATP</a></li>
- <li>ATP19 - <a target="_blank" href=" ">Nome ATP</a></li>
- <li>ATP20 - <a target="_blank" href=" ">Nome ATP</a></li>
+ <li>ATP14 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atv_classe">Classe - POO</a></li>
+ <li>ATP15 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/AtividadeRevisao_24_09">Métodos</a></li>
+ <li>ATP16 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade016">Calc de Taxas</a></li>
+ <li>ATP16 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atvidade016_Revisao">Revisao ATP16</a></li>
+ <li>ATP17 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade017">Calc de Impostos</a></li>
+ <li>ATP18 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade018">Banco & Loja</a></li>
+ <li>ATP19 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade019">CPF E PJ</a></li>
+ <li>ATP20 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade020">Cadastro Universidade</a></li>
   <li>ATP21 - <a target="_blank" href=" ">Nome ATP</a></li>
   <li>ATP22 - <a target="_blank" href=" ">Nome ATP</a></li>
   <li>ATP23 - <a target="_blank" href=" ">Nome ATP</a></li>
