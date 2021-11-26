@@ -38,9 +38,9 @@ READ PARA ORGANIZAR ATIVIDADES.
   <li>ATP22 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade022">Métodos Setters e Getters</a></li>
   <li>ATP23 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade023">Design patterns - MVC 1</a></li>
   <li>ATP24 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade24/src">Design patterns - MVC 2</a</li>
-  <li>ATP25 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade25/src">Herança - Extends </a></li>
-  <li>ATP26 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade26/src"></a>Herança, Override</li>
-  <li>ATP27 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade27/src">Organizando em packages - MVC 1/a></li>
+  <li>ATP25 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade25/src">Herança - Extends</a></li>
+  <li>ATP26 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade26/src"></a>Herança, Override</a></li>
+  <li>ATP27 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade27/src">Organizando em packages - MVC 1</a></li>
   <li>ATP28 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade28/src">>Organizando em packages - MVC 2</a></li>
   <li>ATP29 - <a target="_blank" href=" ">Nome ATP</a></li>
   <li>ATP30 - <a target="_blank" href=" ">Nome ATP</a></li>
