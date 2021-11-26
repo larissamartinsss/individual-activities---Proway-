@@ -3,12 +3,12 @@ public class Main {
 
         Pessoa pessoa1 = new Pessoa();
         pessoa1.nome = "Luana";
-        pessoa1.sobrenome = "Mascarello";
+        pessoa1.sobrenome = "Martins";
         pessoa1.idade = 21;
 
         Aluno aluno = new Aluno();
         aluno.nome = "Gabriela";
-        aluno.sobrenome = "Mascarello";
+        aluno.sobrenome = "Souza";
         aluno.matricula = 221226;
         aluno.turma = "9ºB";
         aluno.curso = "Design";
