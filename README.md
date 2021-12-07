@@ -53,10 +53,35 @@ READ PARA ORGANIZAR ATIVIDADES.
   <li>ATP35 - <a target="_blank" href="https://github.com/larissamartinsss/AtividadesFrontEnd/tree/main/Individual/Atividade4-ATP35/src">Criando Portifólio</a></li>
   <li>ATP36 - <a target="_blank" href="">CRUD - JS</li>
   
-   <h3>MÓDULO 3 - JAVA II - REVISÃO <h3>
+   <h3>MÓDULO 3 - JAVA II - REVISÃO <h3/>
 
    
-  <li>ATP37 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP37">Nome ATP</a></li>
-  <li>ATP38 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP39 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP40 - <a target="_blank" href=" ">Nome ATP</a></li>
+  <li>ATP37 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP37">OOP, CRUD, MVC, JAVA</a></li>
+  <li>ATP38 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP38">JAVA.IO</a></li>
+  <li>ATP39 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP39">JAVA.IO - Manipulação de arquivos</a></li>
+  <li>ATP40 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP40">CRUD - JAVA</a></li>
+    
+    <h3>BANCO DE DADOS | SQL | Postgres<h3/>
+    
+  <li>ATP41 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP41">SQL - Alter table</a></li>
+  <li>ATP42 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP42">SQL - Alter table, Insert table</a></li>
+  <li>ATP43 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP43">SQL - Alter table, Insert table</a></li>
+  <li>ATP44 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP44">SQL - Insert values into</a></li>
+  <li>ATP45 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP45">SQL - Insert values into, commited</a></li>
+  <li>ATP46 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP46">SQL - CRUD</a></li>
+  <li>ATP47 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP47/JavaJDBC">SQL - JAVA - JDBC</a></li>
+  <li>ATP48 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP48">SQL - CRUD</a></li>
+  <li>ATP49 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP49">SQL, Connection Factory</a></li>
+  <li>ATP50 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP50">SQL, Connection Factory</a></li>
+  <li>ATP51 - <a target="_blank" href="https://github.com/larissamartinsss/Learning-Databases/tree/main/individual%20activities/ATP51">SQL, Connection Factory, MVC</a></li>
+  
+     
+     
+   <li>ATP51 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP37">OOP, CRUD, MVC, JAVA</a></li>
+  
+     
+  <li>ATP52 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP38">JAVA.IO</a></li>
+  <li>ATP53 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP39">JAVA.IO - Manipulação de arquivos</a></li>
+  <li>ATP54 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP40">CRUD - JAVA</a></li>
+    
+   
