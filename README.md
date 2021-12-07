@@ -43,14 +43,20 @@ READ PARA ORGANIZAR ATIVIDADES.
   <li>ATP27 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade27/src">Organizando em packages - MVC 1</a></li>
   <li>ATP28 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade28/src">Organizando em packages - MVC 2</a></li>
   <li>ATP29 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP30 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP31 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP32 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP33 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP34 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP35 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP36 - <a target="_blank" href=" ">Nome ATP</a></li>
-  <li>ATP37 - <a target="_blank" href=" ">Nome ATP</a></li>
+  <li>ATP30 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade30/src">POO e Tratamento de Execptions</a></li>
+  <li>ATP31 - <a target="_blank" href="https://github.com/larissamartinsss/individual-activities---Proway-/tree/main/src/Atividade31/src">Tratamento de Exeções</a></li>
+  
+  <h3>MÓDULO 3 - FRONT-END <h3> 
+  <li>ATP32 - <a target="_blank" href="https://github.com/larissamartinsss/AtividadesFrontEnd/tree/main/Individual/Atividade1-ATP32">HTML</a></li>
+  <li>ATP33 - <a target="_blank" href="https://github.com/larissamartinsss/AtividadesFrontEnd/tree/main/Individual/Atividade2-ATP33">Nome ATP</a></li>
+  <li>ATP34 - <a target="_blank" href="https://github.com/larissamartinsss/AtividadesFrontEnd/tree/main/Individual/Atividade3-ATP34">HTML, CSS, JS</a></li>
+  <li>ATP35 - <a target="_blank" href="https://github.com/larissamartinsss/AtividadesFrontEnd/tree/main/Individual/Atividade4-ATP35/src">Criando Portifólio</a></li>
+  <li>ATP36 - <a target="_blank" href="">CRUD - JS</li>
+  
+   <h3>MÓDULO 3 - JAVA II - REVISÃO <h3>
+
+   
+  <li>ATP37 - <a target="_blank" href="https://github.com/larissamartinsss/java-Capgemini/tree/main/Atividades/ATP37">Nome ATP</a></li>
   <li>ATP38 - <a target="_blank" href=" ">Nome ATP</a></li>
   <li>ATP39 - <a target="_blank" href=" ">Nome ATP</a></li>
   <li>ATP40 - <a target="_blank" href=" ">Nome ATP</a></li>
